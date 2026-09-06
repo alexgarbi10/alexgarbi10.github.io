@@ -50,7 +50,27 @@ p {
   margin: 0 0 1rem;
 }
 
-.stack,
+dl {
+  margin: 1.75rem 0 1.25rem;
+}
+
+dl > div {
+  margin-bottom: 0.9rem;
+}
+
+dt {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+
+dd {
+  margin: 0;
+  color: var(--fg);
+}
+
 .meta {
   color: var(--muted);
   font-size: 0.95rem;
