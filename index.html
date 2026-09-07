@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alejandro Garbi — Fullstack Engineer</title>
+    <meta
+      name="description"
+      content="Fullstack software engineer in Calgary. 10+ years shipping TypeScript and Node.js products — APIs, UIs, data, and cloud infrastructure."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Sora:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="fx" aria-hidden="true">
+      <div class="fx-grid"></div>
+      <div class="fx-spot"></div>
+      <div class="fx-grain"></div>
+    </div>
+
+    <a class="skip" href="#work">Skip to selected work</a>
+
+    <header class="shell">
+      <a class="mark" href="#top" aria-label="Alejandro Garbi, home">
+        <span>AG</span>
+      </a>
+      <p class="shell-meta">Calgary · Fullstack</p>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#about">Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-small" href="mailto:alexgarbi10@gmail.com">Email</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="name">
+        <div class="hero-copy reveal">
+          <p class="index">01 — Intro</p>
+          <h1 id="name">
+            <span>Alejandro</span>
+            <span>Garbi</span>
+          </h1>
+          <p class="lede">
+            I design, ship, and operate web applications in TypeScript and Node.js —
+            from early delivery through production ownership of APIs, UIs, data models,
+            and cloud infrastructure.
+          </p>
+          <ul class="pills" aria-label="Languages">
+            <li>Spanish · native</li>
+            <li>English · professional</li>
+          </ul>
+          <div class="cta">
+            <a class="btn" href="mailto:alexgarbi10@gmail.com">
+              Get in touch
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/alexgarbi10/">LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/alexgarbi10">GitHub</a>
+          </div>
+        </div>
+
+        <aside class="stage reveal" aria-label="System map">
+          <div class="stage-bar">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <p>Production surface</p>
+            <span class="live">Live</span>
+          </div>
+          <div class="map" data-map>
+            <svg class="wires" viewBox="0 0 420 340" fill="none" aria-hidden="true">
+              <path d="M210 52v38" />
+              <path d="M120 128H300" />
+              <path d="M120 128v52" />
+              <path d="M300 128v52" />
+              <path d="M210 180v48" />
+              <path d="M90 268h240" />
+            </svg>
+            <button class="node node-ui" type="button" data-layer="ui">
+              <small>Interface</small>
+              React · UIs
+            </button>
+            <button class="node node-api" type="button" data-layer="api">
+              <small>Graph</small>
+              Apollo Federation
+            </button>
+            <button class="node node-svc node-l" type="button" data-layer="api">
+              <small>Service</small>
+              Node resolvers
+            </button>
+            <button class="node node-svc node-r" type="button" data-layer="api">
+              <small>Service</small>
+              REST · IVR
+            </button>
+            <button class="node node-data" type="button" data-layer="data">
+              <small>Data</small>
+              Mongo · Postgres · Redis
+            </button>
+            <button class="node node-infra" type="button" data-layer="infra">
+              <small>Cloud</small>
+              AWS · Terraform · Docker
+            </button>
+          </div>
+          <p class="stage-note" data-note>
+            Hover a node. Each layer is something I own end to end.
+          </p>
+        </aside>
+      </section>
+
+      <section id="work" class="work" aria-labelledby="work-heading">
+        <header class="section-head reveal">
+          <p class="index">02 — Selected work</p>
+          <h2 id="work-heading">Products that had to stay up</h2>
+        </header>
+
+        <ol class="work-grid">
+          <li class="reveal">
+            <article class="card" style="--accent-card: #d4a574">
+              <div class="card-top">
+                <span class="num">01</span>
+                <time datetime="2023-07">Jul 2023 — present</time>
+              </div>
+              <h3>Neo Financial</h3>
+              <p class="role">Fullstack software engineer</p>
+              <p>
+                Production ownership across financial web apps, GraphQL microservices,
+                and AWS infrastructure. Work spans Apollo Federation graphs, Node
+                resolvers, MongoDB data models, React UIs, Terraform, and IVR systems
+                (Amazon Connect, Lex, Lambda).
+              </p>
+              <ul class="tags">
+                <li>GraphQL</li>
+                <li>AWS</li>
+                <li>React</li>
+                <li>Terraform</li>
+              </ul>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="card" style="--accent-card: #7dba9a">
+              <div class="card-top">
+                <span class="num">02</span>
+                <time datetime="2018-05">May 2018 — Sep 2022</time>
+              </div>
+              <h3>Vans Customs 3D</h3>
+              <p class="role">Backend &amp; production support · BairesDev / Rauxa</p>
+              <p>
+                Long-running ownership of a consumer 3D footwear and apparel design
+                platform. Backend and cloud work in Node.js, MySQL, Redis, AWS and
+                Alicloud, plus production incident response. Later led two engineers.
+              </p>
+              <ul class="tags">
+                <li>Node.js</li>
+                <li>MySQL</li>
+                <li>AWS</li>
+                <li>Incidents</li>
+              </ul>
+            </article>
+          </li>
+          <li class="reveal">
+            <article class="card" style="--accent-card: #8aa4c8">
+              <div class="card-top">
+                <span class="num">03</span>
+                <time datetime="2015-07">Jul 2015 — Sep 2017</time>
+              </div>
+              <h3>Transamóvil</h3>
+              <p class="role">Team lead &amp; fullstack</p>
+              <p>
+                Virtual wallet and e-commerce product: Sails.js APIs, Angular UI,
+                PostgreSQL, Redis, and realtime notifications over WebSockets.
+                Led a team of five through requirements, planning, and delivery.
+              </p>
+              <ul class="tags">
+                <li>Sails.js</li>
+                <li>Angular</li>
+                <li>WebSockets</li>
+                <li>Team of 5</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
+      </section>
+
+      <section id="about" class="about" aria-labelledby="about-heading">
+        <header class="section-head reveal">
+          <p class="index">03 — How I work</p>
+          <h2 id="about-heading">Across the boundary</h2>
+        </header>
+        <div class="about-grid">
+          <p class="about-copy reveal">
+            Ten-plus years building products that have to stay up: feature work,
+            system design, databases, deployments, and the messy parts in between.
+            Comfortable crossing service boundaries and owning the change through
+            production.
+          </p>
+          <div class="stack reveal">
+            <div>
+              <h3>Current</h3>
+              <ul class="chips">
+                <li>TypeScript</li>
+                <li>Node.js</li>
+                <li>GraphQL</li>
+                <li>Apollo Federation</li>
+                <li>REST</li>
+                <li>React</li>
+                <li>MongoDB</li>
+                <li>PostgreSQL</li>
+                <li>Redis</li>
+                <li>AWS</li>
+                <li>Terraform</li>
+                <li>Docker</li>
+                <li>serverless</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Earlier</h3>
+              <ul class="chips chips-mute">
+                <li>Sails.js</li>
+                <li>Express</li>
+                <li>Angular</li>
+                <li>MySQL</li>
+                <li>Three.js</li>
+                <li>Mocha</li>
+                <li>Alicloud</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Practice</h3>
+              <ul class="chips chips-line">
+                <li>TDD</li>
+                <li>domain modeling</li>
+                <li>Git</li>
+                <li>CI/CD</li>
+                <li>Linux</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="footer-cta reveal">
+        <p class="index">04 — Contact</p>
+        <a class="giant" href="mailto:alexgarbi10@gmail.com">
+          Let’s talk
+          <span aria-hidden="true">↗</span>
+        </a>
+        <p class="footer-meta">
+          <span>Calgary</span>
+          <a href="mailto:alexgarbi10@gmail.com">alexgarbi10@gmail.com</a>
+          <a href="https://www.linkedin.com/in/alexgarbi10/">LinkedIn</a>
+          <a href="https://github.com/alexgarbi10">GitHub</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
